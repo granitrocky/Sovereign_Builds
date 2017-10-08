@@ -1,2 +1,4 @@
 /ServerBuild/
 /MasterBuild/
+.gitignore
+.gitattributes
