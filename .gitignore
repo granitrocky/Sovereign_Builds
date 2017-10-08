@@ -1,4 +1,2 @@
-/ServerBuild/
-/MasterBuild/
-.gitignore
-.gitattributes
+*
+!/Client/
