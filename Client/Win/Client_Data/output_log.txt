@@ -1,0 +1,53 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8120 MB
+    Driver:   22.21.13.8205
+Begin MonoManager ReloadAssembly
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\System.Core.dll (this message is harmless)
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\Newtonsoft.Json.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\ConditionalExpression.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\System.Data.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\System.Data.Linq.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\UnityNpgsql.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\Pathfinding.ClipperLib.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\Pathfinding.Poly2Tri.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\LiteDB.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\websocket-sharp.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\BarebonesLogger.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\PlayMaker.dll into Unity Child Domain
+Loading D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\Polarith.AI.dll into Unity Child Domain
+Platform assembly: D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\System.dll (this message is harmless)
+- Completed reload, in  0.697 seconds
+<RI> Initializing input.
+<RI.Hid> Failed to create device file:
+ 2 The system cannot find the file specified.
+
+ 
+(Filename:  Line: 54)
+
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 42.072402 ms
+Platform assembly: D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\Mono.Security.dll (this message is harmless)
+Platform assembly: D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: D:\Documents\Unity Projects\Sovereign_Builds\Client\Win\Client_Data\Managed\System.Xml.dll (this message is harmless)
+10/9/2017 2:32:18 PM|Fatal|WebSocket.connect:0|System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+                           
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, System.Int32 port) [0x000e9] in <f044fe2c9e7e4b8e91984b41f0cf0b04>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x00007] in <f044fe2c9e7e4b8e91984b41f0cf0b04>:0 
+                             at System.Net.Sockets.TcpClient..ctor (System.String hostname, System.Int32 port) [0x00006] in <f044fe2c9e7e4b8e91984b41f0cf0b04>:0 
+                             at WebSocketSharp.WebSocket.setClientStream () [0x00066] in <a29d2a08136e4c588525d5526f71fba4>:0 
+                             at WebSocketSharp.WebSocket.doHandshake () [0x00001] in <a29d2a08136e4c588525d5526f71fba4>:0 
+                             at WebSocketSharp.WebSocket.connect () [0x0004f] in <a29d2a08136e4c588525d5526f71fba4>:0 
